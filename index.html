@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW#10</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <header>
+        <p class="insta-word"><img src="img/instagram-word.png"></p>
+        <form>
+            <svg class="search-icon" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+              </svg>
+            <input class="header-search" type="text" name="search" placeholder="Search">
+          </form>
+        <ul class="nav header-nav">
+            <li class="nav-item header-nav-item">
+              <a class="nav-link active" href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door" fill="#262626" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+                <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+              </svg></a>
+            </li>
+            <li class="nav-item header-nav-item">
+              <a class="nav-link" href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cursor" fill="#262626" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103zM2.25 8.184l3.897 1.67a.5.5 0 0 1 .262.263l1.67 3.897L12.743 3.52 2.25 8.184z"/>
+              </svg><span class="badge badge-secondary badge-5">5</span></a>
+            </li>
+            <li class="nav-item header-nav-item">
+              <a class="nav-link" href="#"><svg width="1em" height="1.0625em" viewBox="0 0 16 17" class="bi bi-compass" fill="#262626" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                <path d="M6.94 7.44l4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z"/>
+              </svg></a>
+            </li>
+            <li class="nav-item header-nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="#262626" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+              </svg></a>
+            </li>
+            <li class="nav-item header-nav-item last-child">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-circle-fill" fill="#4094EF" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="8" cy="8" r="8"/>
+              </svg></a>
+            </li>
+        </ul>
+    </header>
+    <hr>
+    <main>
+        <div class="info-about">
+            <p><img class="avatar"src="img/avatar.png"></p>
+            <div class="info-about-text-part">
+                <div class="info-about-text-part-name">
+                    <h5>name</h5>
+                    <a href="#" class="btn btn-primary btn-lg active btn-follow" role="button" aria-pressed="true">Follow</a>
+                    <a href="#" class="btn btn-primary btn-lg active btn-arrow" role="button" aria-pressed="true"><svg  width="0.8em" height="0.8em" viewBox="0 0 16 16 " class="bi bi-caret-down-fill arrow" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                      </svg></a>
+                    <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-three-dots" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                      </svg></p>
+                </div>
+                <div class="how-much">
+                    <p>79 posts</p>
+                    <p>379 followers</p>
+                    <p>179 following</p>
+                </div>
+                <div class="info-about-text-part-about-me">
+                    <h2>Name</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                    <a href="bit.ly/35Ce3mX">bit.ly/35Ce3mX</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="archive-stories">
+            <div class="card storie-1">
+                <img class="storie-1-photo"src="img/Ellipse 42.png" class="card-img-top" alt="storie">
+                <div class="card-body">
+                  <p class="card-text storie-1-text">Name</p>
+                </div>
+            </div>
+            <div class="card storie-1">
+                <img class="storie-1-photo"src="img/Ellipse 42.png" class="card-img-top" alt="storie">
+                <div class="card-body">
+                  <p class="card-text storie-1-text">Name</p>
+                </div>
+              </div>
+              <div class="card storie-1">
+                <img class="storie-1-photo"src="img/Ellipse 42.png" class="card-img-top" alt="storie">
+                <div class="card-body">
+                  <p class="card-text storie-1-text">Name</p>
+                </div>
+              </div>
+        </div>
+        <hr>
+        <div class="tagged">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-layout-text-window-reverse" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2 1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm12-1a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+                <path fill-rule="evenodd" d="M5 15V4H4v11h1zM.5 4h15V3H.5v1zM13 6.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5z"/>
+              </svg><p class="tagged-text">posts</p>
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-square-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+              </svg><p class="tagged-text">tagged</p>
+        </div>
+        <div class="posts">
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+            <div><img src="img/Rectangle 70.png"></div>
+        </div>
+    </main>
+    
+</body>
+</html>
